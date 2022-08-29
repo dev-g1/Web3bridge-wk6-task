@@ -1,0 +1,153 @@
+
+body{
+    margin: 0%;
+    font-size: 18px;
+    line-height: 1.4em;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+header{
+    text-align: center;
+}
+.header{
+    margin-top: 100px;
+}
+h1{
+    margin-top: 50px;
+}
+h1,h2,h3,h4{
+    color: hsl(210, 10%, 33%);
+}
+p{
+    color: hsla(201, 11%, 66%, 1);
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+    margin-right: 20px;
+
+    box-shadow: 3px 3px 2px hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+
+    box-shadow: 3px 3px 2px hsl(233, 75%, 69%);
+}
+.buttons{
+    margin: 40px 0;
+}
+.keep{
+    text-align: center;
+    margin-top: 150px;
+}
+.computer{
+    display: flex;
+    margin-top: 180px;
+}
+.computer2{
+    margin: 50px 0 0 150px;
+}
+.access{
+    text-align: center;
+    margin: 170px 0 70px;
+}
+.access img{
+    margin-top: 70px ;
+}
+.supercharge{
+    text-align: center;
+}
+.create{
+    display: flex;
+    justify-content: center;
+   
+}
+.images{
+    text-align: center;
+    margin: 70px 50px 100px;
+    
+}
+.create1{
+    margin: 70px 40px;
+}
+#create1{
+    margin-top: 60px;
+}
+.clip{
+    text-align: center;
+}
+.button{
+    margin: 50px 40px 130px;
+}
+.footer{
+    display: flex;
+   
+    background-color: hsla(201, 11%, 66%, .2);
+    padding: 40px 0;
+    line-height: 2em;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li:hover{
+    color:hsl(171, 66%, 44%);
+}
+td{
+    padding-right: 150px;   
+}
+.social{
+    padding-right: 20px;
+}
+#social{
+    margin-left: 100px ;
+}
+.social:hover{
+    color: hsl(171, 66%, 44%);
+}
+@media screen and (max-width: 375px ) {
+    .ios{
+        margin: 20px 0;
+    }
+    .computer{
+       display: flex;
+       flex-direction: column;
+    }
+    .computer2{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .device{
+        margin: 0%;
+        width: 100%;
+    }
+    .create{
+        flex-direction: column;
+        margin: 0%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    table{
+        display: flex;
+        flex-direction: column;
+    }
+   nav {
+        list-style-type: none;
+        flex-direction: column;
+    }
+}
